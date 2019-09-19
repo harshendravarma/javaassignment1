@@ -34,6 +34,7 @@ public class FileFinder {
 	}
 
 	public static void main(String[] args) {
+		
 		File[] files = new File("/home/").listFiles();
 		Scanner scanner = new Scanner(System.in);
 		
